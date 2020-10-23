@@ -3,7 +3,8 @@
 upsert('cks_pnpcity', 'qid', {
   intname: state.data.kobo.INTName, //state.data.pathToKey
   idate: state.data.kobo.Idate, 
-  qid: state.data.kobo.QID //if using `id` for the upsert key, we need to map it, Dane have change to qid  
+  qid: state.data.kobo.QID //if using `id` for the upsert key, we need to map it, Dane have change to qid
+  //new mapping here
   // ...
 });
 
